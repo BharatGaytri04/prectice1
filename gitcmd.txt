@@ -44,3 +44,15 @@ git commit -m "first commit"
 
 git checkout -b "newbranchname"
 #to create new branch like main in git repo
+
+git branch -M main      
+# ensure branch is main
+
+git add .              
+# stage all files
+
+git commit -m "update" 
+# save changes
+
+git push -u origin main
+
